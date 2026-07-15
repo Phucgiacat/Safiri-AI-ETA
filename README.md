@@ -22,11 +22,10 @@ This project builds an AI system that:
 
 ## Project Architecture
 
-```
+```Shell
 Safiri-AI-ETA/
 ├── README.md                     # This file
 ├── requirements.txt              # Python dependencies
-├── report.md                     # Technical report
 │
 ├── assets/                       # Images for README
 │   ├── pipeline.png
@@ -165,10 +164,10 @@ Our features are organized into 7 domain-driven categories:
 
 ## Key Results
 
-| Task | Best Model | Metric |
-|---|---|---|
-| **Regression** | Ridge | MAE = 0.266 day |
-| **Classification** | Logistic Regression | AUC = 0.867 |
+| Task                     | Best Model          | Metric          |
+| ------------------------ | ------------------- | --------------- |
+| **Regression**     | Ridge               | MAE = 0.266 day |
+| **Classification** | Logistic Regression | AUC = 0.867     |
 
 ### Delay Propagation Cascade
 
