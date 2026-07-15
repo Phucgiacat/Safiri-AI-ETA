@@ -182,7 +182,7 @@ Our features are organized into 7 domain-driven categories:
 | Model            | MAE (days) | RMSE (days) | R²    |
 | ---------------- | ---------- | ----------- | ------ |
 | Ridge (Baseline) | 0.2658     | 0.3288      | 0.7483 |
-| XGBoost          | 0.2789     | 0.3521      | 0.7113 |
+| XGBoost          | 0.2844     | 0.3521      | 0.7113 |
 | LightGBM         | 0.2916     | 0.3682      | 0.6843 |
 
 ### Classification Performance (5-Fold Stratified CV)
