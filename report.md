@@ -57,7 +57,7 @@ Missing customs clearance data (~9%) was imputed using **route-corridor median d
 
 ### 3.1 Design Philosophy
 
-Every feature was designed to reflect **how logistics professionals reason about delays**, not arbitrary statistical transformations. We engineered 35 features across 7 categories:
+Every feature was designed to reflect **how logistics professionals reason about delays**, not arbitrary statistical transformations. We engineered 35 features across 4 categories:
 
 ### 3.2 Feature Categories
 

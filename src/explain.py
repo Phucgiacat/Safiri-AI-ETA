@@ -69,8 +69,6 @@ def plot_feature_importance(model, feature_cols, model_name: str = "LightGBM"):
 
     if hasattr(model, "feature_importances_"):
         importances = model.feature_importances_
-    elif hasattr(model, "feature_importances_"):
-        importances = model.feature_importances_
     else:
         logger.warning(f"{model_name} does not support feature_importances_")
         return None

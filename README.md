@@ -72,8 +72,11 @@ pip install -r requirements.txt
 # Set encoding for Windows
 set PYTHONIOENCODING=utf-8
 
-# Run the complete analysis
+# Run the complete analysis as a Python script
 python notebooks/ETA_Prediction.py
+
+# Or open and run the Jupyter Notebook
+# jupyter notebook notebooks/ETA_Prediction.ipynb
 ```
 
 ### Run Individual Components
@@ -177,7 +180,7 @@ Our features are organized into 7 domain-driven categories:
 1. **Customs delay is the strongest predictor** of final delivery delay (r=0.87), confirming delay propagation
 2. **Port congestion** is the #1 external risk factor, especially for sea routes
 3. **Sea routes** are 1.5x more vulnerable to disruption amplification than air routes
-4. **Non-linear models outperform linear baselines**, indicating important feature interactions
+4. **Linear baselines performed surprisingly well (Ridge won)**: With a small sample size (250 records), highly parameterized non-linear models (XGBoost/LightGBM) are prone to overfitting, allowing the Ridge regression baseline to capture the fundamentally linear delay generation process more robustly.
 5. **Missing customs data** is itself informative — it signals operational visibility gaps
 
 ## Domain Context
