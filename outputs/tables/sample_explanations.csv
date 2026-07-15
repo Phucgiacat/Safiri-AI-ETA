@@ -1,0 +1,31 @@
+Rank,Feature,Value,SHAP_Impact,Direction,Shipment,Shipment_ID
+1,delay_customs_days,3.12,0.8889,↑ Increases delay,Most Delayed,65
+2,cumulative_delay_customs,5.81,0.5554,↑ Increases delay,Most Delayed,65
+3,propagation_port_to_customs,2.4,0.171,↑ Increases delay,Most Delayed,65
+4,delay_ratio_leg3,1.1513,0.1123,↑ Increases delay,Most Delayed,65
+5,delay_ratio_leg1,0.1554,0.1088,↑ Increases delay,Most Delayed,65
+6,delay_departure_days,1.4,0.0989,↑ Increases delay,Most Delayed,65
+7,congestion_weather_interaction,0.0084,0.0622,↑ Increases delay,Most Delayed,65
+8,departure_day_of_week,2.0,0.0545,↑ Increases delay,Most Delayed,65
+9,origin_encoded,3.0,0.033,↑ Increases delay,Most Delayed,65
+10,delay_accel_port_to_customs,1.83,0.0284,↑ Increases delay,Most Delayed,65
+1,delay_customs_days,0.65,-0.2777,↓ Reduces delay,Median,43
+2,cumulative_delay_customs,1.92,-0.1496,↓ Reduces delay,Median,43
+3,propagation_dep_to_port,31.0,0.0524,↑ Increases delay,Median,43
+4,congestion_index,0.458,-0.0444,↓ Reduces delay,Median,43
+5,delay_accel_dep_to_port,1.21,0.0425,↑ Increases delay,Median,43
+6,weather_index,0.19,0.0353,↑ Increases delay,Median,43
+7,destination_encoded,7.0,-0.0252,↓ Reduces delay,Median,43
+8,departure_day_of_week,1.0,0.0251,↑ Increases delay,Median,43
+9,delay_port_days,1.24,0.0225,↑ Increases delay,Median,43
+10,disruption_severity,0.3405,0.0197,↑ Increases delay,Median,43
+1,delay_customs_days,0.41,-0.3341,↓ Reduces delay,Least Delayed,157
+2,cumulative_delay_customs,1.53,-0.199,↓ Reduces delay,Least Delayed,157
+3,delay_ratio_leg1,1.1765,-0.1222,↓ Reduces delay,Least Delayed,157
+4,propagation_dep_to_port,0.8525,-0.0778,↓ Reduces delay,Least Delayed,157
+5,origin_encoded,0.0,-0.0734,↓ Reduces delay,Least Delayed,157
+6,congestion_index,0.445,-0.0672,↓ Reduces delay,Least Delayed,157
+7,delay_accel_dep_to_port,-0.08,-0.0634,↓ Reduces delay,Least Delayed,157
+8,delay_port_days,0.52,-0.059,↓ Reduces delay,Least Delayed,157
+9,delay_departure_days,0.6,-0.0521,↓ Reduces delay,Least Delayed,157
+10,delay_ratio_leg3,2.5625,0.0419,↑ Increases delay,Least Delayed,157

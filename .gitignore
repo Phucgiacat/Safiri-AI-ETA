@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Models might be large, but let's push them if they are small (which they are)
+# Outputs are kept.

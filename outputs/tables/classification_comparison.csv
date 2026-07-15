@@ -1,0 +1,3 @@
+Model,Accuracy,Precision,Recall,F1 Score,AUC-ROC
+LightGBM,0.788,0.8343,0.8494,0.8418,0.8613
+Logistic Regression (Baseline),0.812,0.9048,0.8012,0.8498,0.8675

@@ -1,0 +1,3 @@
+Route Type,Departure → Port (median ratio),Port → Customs (median ratio),Customs → Final (median ratio),Avg Final Delay (days),Delay Recovery Rate (%)
+air,2.706,1.026,1.227,1.191,98.0
+sea,3.236,0.756,1.249,1.334,99.0

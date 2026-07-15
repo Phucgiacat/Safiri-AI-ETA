@@ -1,0 +1,11 @@
+origin,destination,Avg Delay,Delay Std,Max Delay,Delay Rate,Avg Congestion
+Shanghai,Los Angeles,1.447,0.541,2.66,0.895,0.328
+Hamburg,New York,1.429,0.86,3.75,0.6,0.294
+Shanghai,Rotterdam,1.401,0.589,2.61,0.688,0.296
+Mumbai,London,1.383,0.6,2.52,0.769,0.283
+Busan,Long Beach,1.37,0.765,3.17,0.654,0.244
+Ho Chi Minh City,Los Angeles,1.363,0.778,3.89,0.636,0.33
+Ho Chi Minh City,Tokyo,1.253,0.705,3.42,0.63,0.303
+Singapore,Dubai,1.248,0.485,2.22,0.619,0.288
+Hong Kong,Sydney,1.133,0.463,1.95,0.667,0.27
+Bangkok,Frankfurt,0.974,0.527,2.07,0.522,0.299
